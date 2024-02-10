@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/centos:latest          
+Sample FROM public.ecr.aws/docker/library/centos:latest          
 MAINTAINER QuantumCode
 RUN cd /etc/yum.repos.d/
 RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
